@@ -25,30 +25,6 @@ const Box = () => (
 
                 <View style={styles.product}>
                     <View>
-                        <Text>Tai-nghe Bluetooth </Text>
-                        <Text>172K+ sản phẩm</Text>
-                    </View>
-                    <Image style={styles.images}
-                        source={{
-                            uri: 'https://www.sony.com.vn/image/caf15b5628303708b232ddb41ec10825?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF',
-                        }}
-                    />
-                </View>
-                <View style={styles.product}>
-                    <View>
-                        <Text>Tai-nghe Bluetooth </Text>
-                        <Text>172K+ sản phẩm</Text>
-                    </View>
-                    <Image style={styles.images}
-                        source={{
-                            uri: 'https://www.sony.com.vn/image/caf15b5628303708b232ddb41ec10825?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF',
-                        }}
-                    />
-                </View>
-
-                {/* vi du t them/thaydoi code */}
-                <View style={styles.product}>
-                    <View>
                         <Text>Sandal nữ</Text>
                         <Text>335+ sản phẩm </Text>
                     </View>
@@ -59,6 +35,7 @@ const Box = () => (
                     />
                 </View>
             </View>
+
             <View style={styles.box}>
                 <View style={styles.product}>
                     <View>
@@ -71,6 +48,7 @@ const Box = () => (
                         }}
                     />
                 </View>
+
                 <View style={styles.product}>
                     <View>
                         <Text>Áo phông</Text>
@@ -85,7 +63,6 @@ const Box = () => (
             </View>
         </View>
     </SafeAreaView>
-
 );
 
 const styles = ({
@@ -117,7 +94,7 @@ const styles = ({
         height: 100,
     },
     images: {
-        width: 70, 
+        width: 70,
         height: 70,
     }
 });
