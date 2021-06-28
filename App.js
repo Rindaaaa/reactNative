@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, SafeAreaView, Text, Alert, Image } from 'react-native';
+import { StyleSheet, View, SafeAreaView} from 'react-native';
 import Box from './src/component/box';
 
 const App = () => (
