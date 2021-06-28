@@ -22,6 +22,31 @@ const Box = () => (
                         }}
                     />
                 </View>
+
+                <View style={styles.product}>
+                    <View>
+                        <Text>Tai-nghe Bluetooth </Text>
+                        <Text>172K+ sản phẩm</Text>
+                    </View>
+                    <Image style={styles.images}
+                        source={{
+                            uri: 'https://www.sony.com.vn/image/caf15b5628303708b232ddb41ec10825?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF',
+                        }}
+                    />
+                </View>
+                <View style={styles.product}>
+                    <View>
+                        <Text>Tai-nghe Bluetooth </Text>
+                        <Text>172K+ sản phẩm</Text>
+                    </View>
+                    <Image style={styles.images}
+                        source={{
+                            uri: 'https://www.sony.com.vn/image/caf15b5628303708b232ddb41ec10825?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF',
+                        }}
+                    />
+                </View>
+
+                {/* vi du t them/thaydoi code */}
                 <View style={styles.product}>
                     <View>
                         <Text>Sandal nữ</Text>
